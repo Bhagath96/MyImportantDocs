@@ -1,0 +1,50 @@
+1. Upgrade Ubuntu 18.04 to 20.04 by following instructions on:
+   https://www.cyberciti.biz/faq/upgrade-ubuntu-18-04-to-20-04-lts-using-command-line/
+   
+2. For installing both JDK and JRE in one command run: 
+   sudo apt install default-jdk
+   
+3. Now set JAVA_HOME path by editing /etc/environment file:
+   sudo nano /etc/environment
+   Add following line:
+   JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+   
+4. Now install nvm by executing following command:
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+   Once installed open Terminal and type:
+   source ~/.profile
+   nvm install v14.5.0
+   Now verify current active version of node.js by running:
+   node --version
+   
+5. Now install visual studio code by downloading:
+   https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
+   Once downloaded, double click the .deb file and install it
+   
+6. Now install yarn package manager by following below instructions. Open Terminal and type:
+   curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+   echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+   sudo apt update && sudo apt install --no-install-recommends yarn
+   Check if yarn is installed properly by typing:
+   yarn --version
+   
+7. Download Android Studio by following instructions from:
+   https://developer.android.com/studio
+   Once Android Studio is started goto 'SDK Manager' (On the top right portion of menu bar)
+   In the 'SDK Platforms' tab tick the following items (if not already ticked):
+   Android 11 (R)
+      Android SDK Platform 30
+      Sources for Android 30
+      Google APIs Intel x86 Atom System Image
+   Click 'Apply' button and wait until its all installed
+   Once it is finished goto 'SDK Manager' and click on 'SDK Tools' tab ans check the following items:
+   Android SDK Build-Tools    
+   NDK (Side by Side)
+   Android SDK Command Line Tools (latest)
+   CMake
+   Android Emulator
+   Android SDK Platform-Tools
+   Google Play Licensing Library
+     
+   
+

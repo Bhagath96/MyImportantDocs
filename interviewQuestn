@@ -1,0 +1,48 @@
+SElF INTRODUCTION AND PROJECT DESCRIPTION IN RESUME .. UPDATE IN PROPER WAYS .. 
+
+how many ways can create you can create in javascript?
+what is a prototype in javascritpt>
+what is a promise in js ?
+what is call back hell in js?
+what are all the main ways you can implement api calls in js ?
+ANs USING Promise, OBservable , call back ,  async await-- asynchrnous operatin in js -- hw to handle
+8 ES6 main features, 
+ARrow function dffrnces
+hwo many ways you can create function in javsccript ?
+what is function declration and function expression ?
+what is anomynous function ?
+what is dffrnce between call and apply ?
+setTImeout and setIntrval ?
+what is css preprocessrs ?
+what is babel?
+what is webpack ?
+design patern in javascript ?
+
+javscript ES6 and  --ES5 vanila javascript ?
+
+scoping of a varibale in javascript ? LOcal scope global scope
+CLosure in javascript ?
+DEpendncy injection ?
+OBject creation in js ? HOw many ways we can create object in javscript ?
+Ans LIttrl notation let x = {}, Object.create()
+HIgh order function in javascript ?
+TYpescript Es6 version ?
+PRimitive datatypes in js ?
+ANd refernial dataype in javascrpt ?
+Recursion in javascript ?
+Media queries in bootstrap? HOw a page detect crrspndng css when a a page loads >HOw respnvness in html works ?
+View port meta tag in latest version html ?
+htm5 and html 4 diffrnces ?
+error handling in javscript and error code for any erros happns --
+Exception handling in react ?
+
+ES6 javascript properties and features ?
+what is dom ? what is document object model?
+HTML5 features ?
+var xmlHttpREquest = new XMLHTTPREQUEST();
+xml.open('',type);
+xml.send();
+progress(), sucess(), failure()
+
+git push origin --delete BHOOM-SPRINT-96    ::::FOR DELETE BRANCH
+git push origin -u BHAG-BHOOM-1275   ::::For Rename Branch
